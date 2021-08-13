@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pale_grey"
+    tools:context=".PayActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp10"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivBack_pay"
+                android:layout_width="@dimen/dp30"
+                android:layout_height="@dimen/dp30"
+                android:padding="@dimen/dp7"
+                android:src="@drawable/ic_group_8" />
+
+            <TextView
+                style="@style/TextStyle15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Revisar y enviar " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp17"
+            android:layout_marginVertical="@dimen/dp25"
+            android:background="@drawable/background1"
+            android:orientation="vertical"
+            android:paddingLeft="26dp"
+            android:paddingTop="@dimen/dp17"
+            android:paddingRight="@dimen/dp20"
+            android:paddingBottom="@dimen/dp22">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp3"
+                    app:cardCornerRadius="90dp">
+
+                    <ImageView
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:src="@mipmap/bitmap" />
+                </androidx.cardview.widget.CardView>
+
+                <ImageView
+                    android:layout_width="@dimen/dp16"
+                    android:layout_height="@dimen/dp16"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="7dp"
+                    android:src="@drawable/ic_shape" />
+            </RelativeLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp7"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvName_pay"
+                    style="@style/TextStyle16"
+                    android:text="David Paz "
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toLeftOf="@id/tvMoney"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    style="@style/TextStyle17"
+                    android:layout_marginTop="@dimen/dp2"
+                    android:text="davidpaz@correo.com "
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toLeftOf="@id/tvMoney"
+                    app:layout_constraintTop_toBottomOf="@id/tvName_pay" />
+
+                <TextView
+                    android:id="@+id/tvMoney"
+                    style="@style/TextStyle18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background5"
+                    android:paddingHorizontal="24dp"
+                    android:paddingVertical="@dimen/dp7"
+                    android:text="20,00€"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                style="@style/TextStyle19"
+                android:layout_marginTop="@dimen/dp16"
+                android:layout_marginBottom="@dimen/dp5"
+                android:text="Mensaje" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextStyle20"
+                    android:layout_gravity="center_vertical"
+                    android:text="Este es el dinero de la entradas…" />
+
+                <TextView
+                    style="@style/TextStyle28"
+                    android:layout_marginLeft="@dimen/dp10"
+                    android:paddingBottom="@dimen/dp5"
+                    android:text="🎬" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp18"
+            android:layout_marginVertical="@dimen/dp20"
+            android:background="@drawable/background1"
+            android:orientation="vertical"
+            android:paddingVertical="@dimen/dp10"
+            android:paddingLeft="@dimen/dp22"
+            android:paddingRight="@dimen/dp14">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/dp15"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextStyle21"
+                    android:layout_weight="1"
+                    android:padding="@dimen/dp5"
+                    android:text="Tipo de pago " />
+
+                <TextView
+                    style="@style/TextStyle22"
+                    android:text="Personal " />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp5"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_18_dp_copy_2" />
+            </LinearLayout>
+
+            <ImageView style="@style/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/dp15"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/dp30">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_bitmap_copy" />
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp15"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextStyle23"
+                        android:text="BBVA" />
+
+                    <TextView
+                        style="@style/TextStyle24"
+                        android:text="****9889" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp5"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_18_dp_copy_2" />
+
+            </LinearLayout>
+
+            <ImageView style="@style/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/dp15"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp5">
+
+                <TextView
+                    style="@style/TextStyle21"
+                    android:layout_weight="1"
+                    android:text="Tarifas por transacción " />
+
+                <TextView
+                    style="@style/TextStyle25"
+                    android:layout_marginRight="@dimen/dp8"
+                    android:text="0,00€ " />
+            </LinearLayout>
+
+            <ImageView style="@style/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/dp15"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextStyle21"
+                    android:layout_weight="1"
+                    android:padding="@dimen/dp5"
+                    android:text="Tú pagas" />
+
+                <TextView
+                    style="@style/TextStyle26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dp8"
+                    android:text="20,00€ " />
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp15"
+            android:layout_marginVertical="20dp"
+            android:background="@drawable/background4"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="ENVIAR AHORA"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white_three</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/sp28</item>
+        <item name="font">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="TextStyle2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white_three</item>
+        <item name="android:textSize">@dimen/sp12</item>
+        <item name="android:textStyle">bold</item>
+        <item name="font">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="TextStyle4">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/darkish_blue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="font">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="TextStyle5">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">@dimen/sp10</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/dp9</item>
+        <item name="android:gravity">center</item>
+        <item name="font">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="TextStyle6">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/sp12</item>
+        <item name="font">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextStyle7">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white_three</item>
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="font">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextStyle8">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white_three</item>
+        <item name="android:textSize">@dimen/sp10</item>
+        <item name="font">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextStyle9">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:textSize">@dimen/sp10</item>
+        <item name="android:textStyle">bold</item>
+        <item name="font">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="TextStyle10">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_two</item>
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="font">@font/montserrat_regular</item>
+    </style>
+
+    <style name="TextStyle11">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_two</item>
+        <item name="android:textSize">@dimen/sp12</item>
+        <item name="android:layout_marginTop">@dimen/dp16</item>
+        <item name="font">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextStyle12">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/warm_grey</item>
+        <item name="android:layout_marginTop">@dimen/dp2</item>
+        <item name="android:layout_marginBottom">@dimen/dp10</item>
+        <item name="android:textSize">@dimen/sp10</item>
+        <item name="font">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextStyle13">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="font">@font/montserrat_regular</item>
+    </style>
+
+    <style name="TextStyle15">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_two</item>
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="font">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextStyle16">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_two</item>
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="font">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextStyle17">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/warm_grey</item>
+        <item name="android:textSize">@dimen/sp12</item>
+        <item name="font">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextStyle18">
+        <item name="android:textColor">@color/white_three</item>
+        <item name="android:textSize">@dimen/sp20</item>
+        <item name="android:textStyle">bold</item>
+        <item name="font">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="TextStyle19">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/warm_grey</item>
+        <item name="android:textSize">@dimen/sp10</item>
+        <item name="font">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextStyle20">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="font">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextStyle21">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_two</item>
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:textStyle">bold</item>
+        <item name="font">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="TextStyle22">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:textStyle">bold</item>
+        <item name="font">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="TextStyle23">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_two</item>
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="android:textStyle">bold</item>
+        <item name="font">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="TextStyle24">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/warm_grey</item>
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="font">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextStyle25">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="android:textStyle">bold</item>
+        <item name="font">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="TextStyle26">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/green_blue</item>
+        <item name="android:textSize">@dimen/sp20</item>
+        <item name="android:textStyle">bold</item>
+        <item name="font">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="TextStyle27">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white_three</item>
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">@dimen/sp1</item>
+        <item name="font">@font/montserrat_bold</item>
+    </style>
+
+    <style name="TextStyle28">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/marine</item>
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="font">@font/roboto_regular</item>
+    </style>
+
+    <style name="TextStyle29">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white_three</item>
+        <item name="android:textSize">@dimen/sp12</item>
+        <item name="lineHeight">@dimen/sp18</item>
+        <item name="font">@font/montserrat_regular</item>
+    </style>
+
+    <style name="TextStyle30">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="android:textStyle">bold</item>
+        <item name="font">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="LLStyle1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginRight">@dimen/dp30</item>
+    </style>
+    <style name="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:src">@drawable/background3_line</item>
+    </style>
+</resources>
