@@ -260,6 +260,5 @@
         android:layout_marginVertical="@dimen/dp15"
         android:backgroundTint="@color/cerulean_blue"
         android:src="@drawable/ic_add_black_18_dp"
-        android:tint="@color/white"
-        app:borderWidth="@dimen/dp0" />
+        app:tint="@color/white" />
 </RelativeLayout>

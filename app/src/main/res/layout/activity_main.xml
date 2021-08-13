@@ -36,6 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/cerulean_blue"
+        app:tint="@color/white"
         android:src="@drawable/ic_assignment_returned_black_18_dp_copy"
         app:layout_anchor="@id/dashboard_bottomAppBar" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
